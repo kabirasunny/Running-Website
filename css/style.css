@@ -37,3 +37,19 @@
 .navList li a:active{
     color: blue;
 }
+
+.firstSection{
+    background-color: purple;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.title{
+    border: 2px solid black;
+    background-color: red;
+    display: flex;
+}

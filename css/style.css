@@ -155,3 +155,77 @@ footer{
     border-radius: 1rem;
     cursor: pointer;
 }
+
+
+/*============================================================== Adding css for runnig-blog page ======================================================== */
+
+.sectionBlog{
+    background: red;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.blogAll{
+    background: black;
+    margin: 0 auto;
+}
+
+.blogTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blogTitle #head-title{
+    color: white;
+    font-size: 50px;
+}
+
+.blogTitle .blogLine{
+    background: white;
+    width: 70px;
+    height: 5px;
+    margin: 5px 0
+}
+
+.blogList{
+    display: flex;
+    list-style: none;
+}
+
+.blogList li{
+    padding: 0 2em;
+}
+
+.blogList li img{
+    width: 201px;
+    height: 200px;
+    padding-right: 2em;
+}
+
+.blogList li div{
+    float: right;
+    line-height: 36px;
+}
+
+.blogList li div h1{
+    color: white;
+    font-size: 30px;
+}
+
+.blogList li div p{
+    color: white;
+}
+
+.blogList li div a{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 15px;
+    color: white;
+}
+
+.blogList li div a:hover{
+    background-color: rgb(246, 123, 144);
+}

@@ -160,7 +160,9 @@ footer{
 /*============================================================== Adding css for runnig-blog page ======================================================== */
 
 .sectionBlog{
-    background: red;
+    background-image: url(/img/run.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -181,13 +183,15 @@ footer{
 .blogTitle #head-title{
     color: white;
     font-size: 50px;
+    color: rgb(243, 138, 155)
 }
 
 .blogTitle .blogLine{
     background: white;
     width: 70px;
     height: 5px;
-    margin: 5px 0
+    margin: 5px 0;
+    background-color: rgb(243, 138, 155);
 }
 
 .blogList{

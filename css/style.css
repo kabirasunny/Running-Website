@@ -229,3 +229,12 @@ footer{
 .blogList li div a:hover{
     background-color: rgb(246, 123, 144);
 }
+
+hr{
+    width: 93%;
+    margin: 20px 
+}
+
+.listMarign{
+    margin: 0 0;
+}
